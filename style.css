@@ -1,0 +1,377 @@
+.main {
+  /*  background-color: rgb(61, 88, 79); */
+  background-image: linear-gradient(
+      rgba(57, 67, 77, 0.7),
+      rgba(37, 37, 51, 0.7)
+    ),
+    url(https://websitedemos.net/agency-02/wp-content/uploads/sites/30/2020/06/home-hero-bg.jpg?fbclid=IwY2xjawFuhgBleHRuA2FlbQIxMAABHSB1peB4xNd5lWXQLNhYv2maI0kYvhv3tD65LF_cy3n6JIXYaNQ6RzuI5w_aem_ZakNgyAw7iyMJQo57JcSgg);
+  background-size: 100%;
+  padding: 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+.nav-logo img {
+  width: 150px;
+  margin-left: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 10px;
+}
+
+.primary-btn {
+  background-color: #1f94d8;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.big-btn {
+  padding: 30px 50px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.nav-contant ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.nav-contant ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+}
+.nav-contant button {
+  background-color: rgb(31, 148, 216);
+  color: white;
+  height: 40px;
+  width: 200px;
+  font-size: 15px;
+  border: none;
+  border-radius: 40px;
+}
+.nav-contant button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.hero-content {
+  color: white;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+.hero-content button {
+  background-color: rgb(31, 148, 216);
+  color: white;
+  height: 50px;
+  width: 170px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 90px;
+}
+.hero-content button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.card-container {
+  background-color: aquamarine;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto ;
+  justify-content: center;
+}
+.card-1 {
+  background-color: white;
+  padding: 30px 60px;
+}
+.card-2 {
+  background-color: white;
+  padding: 30px 60px;
+}
+.card-3 {
+  background-color: white;
+  padding: 30px 60px;
+}
+.card-4 {
+  background-color: white;
+  padding: 30px 60px;
+}
+.card-5 {
+  background-color: white;
+  padding: 30px 60px;
+}
+.card-6 {
+  background-color: white;
+  padding: 30px 60px;
+}
+.text {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.container {
+  background-color: aquamarine;
+  font-size: 20px;
+  padding: 70px;
+}
+.card-1 span {
+  font-size: 50px;
+  color: rgb(115, 115, 233);
+}
+.card-2 span {
+  font-size: 50px;
+  color: rgb(115, 115, 233);
+}
+.card-3 span {
+  font-size: 50px;
+  color: rgb(115, 115, 233);
+}
+.card-4 span {
+  font-size: 50px;
+  color: rgb(115, 115, 233);
+}
+.card-5 span {
+  font-size: 50px;
+  color: rgb(115, 115, 233);
+}
+.card-6 span {
+  font-size: 50px;
+  color: rgb(115, 115, 233);
+}
+.text h1 {
+  font-size: 60px;
+  color: rgb(75, 75, 139);
+}
+
+.box-contant1{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.box-text {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 90px;
+  font-size: 20px;
+}
+.box-text h1 {
+  font-size: 60px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn button {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 10px 0px 10px 0px;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px 8px rgb(136, 118, 118);
+}
+.img-contant img{
+  height: 40px;
+  width: 50px;
+ 
+}
+.img-contant{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 0.25fr;
+  text-align: center;
+  
+  margin-top: 90px;
+/*   margin-bottom: 80px; */
+ 
+}
+.image1{
+  border: 0.5px  solid rgba(70, 69, 69, 0.068);
+  padding: 50px;
+
+}
+.text-contant{
+  text-align: center;
+  font-size: 20px;
+  
+}
+.text-contant h1{
+  font-size: 60px;
+}
+
+.btext-container{
+  background-color: #EFF2FF;
+  text-align: center;
+  padding: 50px;
+}
+.image img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.btext-container h1{
+  font-size: 40px;
+}
+.btext-container h1{
+  font-size: 30px;
+}
+.btext-container p{
+  font-size: 20px;
+}
+.box-contant{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.box{
+  text-align: center;
+}
+.card-start-a-project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+     padding: 40px;
+    border:none;
+    margin: 100px 100px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 70px rgba(192, 182, 182, 0.397);
+    border-radius: 10px;
+
+}
+.card-project h2{
+    font-size:33px;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    color: #4b60d7d9;
+}
+
+.card-project p{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+.project-code button{
+    padding: 10px 40px;
+    background-color: #6878D6;
+    border-radius: 10px  0px 10px 0px;
+    border: none;
+    color: #EFF2FF;
+    font-size: 20px;
+    box-shadow: 10px 10px 70px rgb(236, 233, 233);
+}
+.hero-container2{
+  background-color:#EFF2FF;
+  padding: 50px;
+}
+/* footer style  */
+.footer-container{
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content:space-between;
+}
+.footer-contant img{
+  width: 250px;
+}
+.footer-contant p{
+  color: #EFF2FF;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.footer-contant-icon {
+  color: #FFFFFF;
+font-size: 20px;
+display: flex;
+gap: 20px;
+margin-top: 30px;
+}
+
+.Company ul li a{
+  color: white;
+  font-size: 24px;
+  margin-top: -19px;
+}
+
+.Company{
+  color: #EFF2FF;
+  margin-top: 25px;
+}
+.Company ul{
+  margin-top: 30px;
+  margin-left: -30px;
+}
+
+
+
+.Business{
+  color: #EFF2FF;
+  margin-top: 20px;
+  
+}
+.Business ul{
+  margin-top: 30px;
+  margin-left: -30px;
+}
+.Business ul li a{
+  color: white;
+  font-size: 24px;
+  margin-top: -19px;
+}
+
+
+.Get-In-Touch{
+  color: #EFF2FF;
+  margin-top: 30px;
+}
+.Get-In-Touch p{
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.arif{
+  background-color: #262e70;
+
+}
+
+.hr{
+  background-color: #6561618c;
+  height:1px ;
+}
+
+.creatore{
+  color: #EFF2FF;
+  font-size: 20px;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+
+/* footer style none */
